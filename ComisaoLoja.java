@@ -10,7 +10,7 @@ public class ComisaoLoja {
     
     public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		System.out.print("Programa para pagamento de comissão de vendedores de peças.\n\n"); //Why so specific?!
+		System.out.print("Programa para pagamento de comissão de vendedores de peças.\n\n"); 
 		
 		int IdVendedor,IdPeca;
 		float PrecoPeca,Quantidade,ValorComissao,PorcentagemComissao=0.05f;
